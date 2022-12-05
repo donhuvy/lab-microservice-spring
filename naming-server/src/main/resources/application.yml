@@ -1,10 +1,10 @@
 spring:
-  application:
-    name: naming-server
+    application:
+        name: naming-server
 server:
-  port: 8761
+    port: 8761
 
 eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+    client:
+        register-with-eureka: false
+        fetch-registry: false
